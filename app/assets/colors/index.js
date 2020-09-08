@@ -3,5 +3,6 @@ export default {
   secondaryBackground: "white",
   border: "black",
   borderSecondary: "gray",
-  text: "dodgerblue",
+  text: "white",
+  secondaryText: "whitesmoke",
 };

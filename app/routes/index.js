@@ -1,6 +1,6 @@
 import React from "react";
 import { Router, Scene } from "react-native-router-flux";
-import Home from "../pages/Home";
+import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
 import Biography from "../components/Biography";
 
