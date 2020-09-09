@@ -8,8 +8,13 @@ function Routes() {
   return (
     <Router>
       <Scene key="root">
-        <Scene key="home" component={Home} title="Home" initial={true} />
-        <Scene key="portfolio" component={Portfolio} title="Portfolio" />
+        <Scene key="home" component={Home} title="Home" />
+        <Scene
+          key="portfolio"
+          component={Portfolio}
+          title="Portfolio"
+          initial={true}
+        />
         <Scene key="biography" component={Biography} title="Biography" />
       </Scene>
     </Router>

@@ -128,9 +128,9 @@ export default function Home() {
             position: "absolute",
             paddingRight: 150,
             paddingLeft: 150,
-            paddingTop: 20,
+            paddingTop: 10,
             bottom: -1,
-            paddingBottom: 20,
+            paddingBottom: 10,
             borderTopRightRadius: 20,
             borderTopLeftRadius: 20,
             borderTopWidth: 2,
@@ -147,6 +147,9 @@ export default function Home() {
             <FontAwesomeIcon
               icon={faGithub}
               style={{
+                backgroundColor: "purple",
+                padding: 10,
+                borderRadius: 500,
                 color: "white",
                 marginRight: 10,
                 fontSize: 30,
@@ -157,6 +160,9 @@ export default function Home() {
             <FontAwesomeIcon
               icon={faGoogle}
               style={{
+                backgroundColor: "red",
+                padding: 10,
+                borderRadius: 500,
                 color: "white",
                 marginLeft: 20,
                 marginRight: 20,
@@ -167,7 +173,14 @@ export default function Home() {
           <TouchableOpacity onPress={toLinkedin}>
             <FontAwesomeIcon
               icon={faLinkedinIn}
-              style={{ color: "white", marginLeft: 10, fontSize: 30 }}
+              style={{
+                backgroundColor: "dodgerblue",
+                padding: 10,
+                borderRadius: 500,
+                color: "white",
+                marginLeft: 10,
+                fontSize: 30,
+              }}
             />
           </TouchableOpacity>
         </View>
